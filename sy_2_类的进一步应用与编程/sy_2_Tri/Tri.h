@@ -18,8 +18,8 @@ Tri::Tri(float a1=1,float b1=1,float c1=1)
 	a=a1;
 	b=b1;
 	c=c1;
-	cout<<"三角形三个边："<<endl;
-	cout<<"a1="<<a<<","<<"b1="<<b<<","<<"c1="<<c<<","<<endl;
+	cout<<"三角形三个边：";
+	cout<<"a="<<a<<" "<<"b="<<b<<" "<<"c="<<c<<endl;
 }
 float Tri::area()
 {
