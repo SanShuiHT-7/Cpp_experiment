@@ -70,3 +70,4 @@ void Book::setAuthor(const string newAuthor)
 {
 	author=newAuthor;
 }
+
