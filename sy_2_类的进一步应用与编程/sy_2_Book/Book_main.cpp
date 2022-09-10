@@ -61,6 +61,7 @@ int main(){
 		cin>>flag;
 		if(((flag=='N')||(flag=='n')))
 		{
+			cout<<"ÒÑÍË³öÂ¼Èë......"<<endl; 
 			break;
 		}
 	} 
