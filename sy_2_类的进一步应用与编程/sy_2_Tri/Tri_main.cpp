@@ -14,5 +14,7 @@ int main()
 	tri4=new Tri(12,13,5);
 	cout<<"三角形面积为：area4="<<tri4->area()<<endl;
 	delete tri4;
+	Tri tri5(tri2);
+	cout<<"使用拷贝构造函数调用输出的三角形面积为：area5="<<tri5.area()<<endl;
 	return 0;
 }
