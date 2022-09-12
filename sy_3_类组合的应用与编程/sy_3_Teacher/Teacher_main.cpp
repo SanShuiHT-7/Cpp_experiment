@@ -3,6 +3,9 @@
 using namespace std; 
 int main()
 {  
-    Whole(3);//调用有参构造函数
-    return 0;
+	Teacher tea1("09170303","阿夏","女",2000,1,1);
+	tea1.display(); 
+	tea1.changeDate(2000,7,17);
+	tea1.display();
+	return 0;
 }
