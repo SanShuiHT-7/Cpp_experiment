@@ -29,14 +29,15 @@ class Whole
     private:   
         Part p1;  //Part子对象p1   
         Part p2; //Part子对象p2
+        Part p3;
     public:    
         Whole(int i);  // Whole的有参构造函数   
         Whole(){};     //Whole的无参构造函数 
         ~Whole();      //Whole的析构函数    
 };
-Whole::Whole(int i):p1(),p2(i)
+Whole::Whole(int i):p2(i),p1()
 {
-    cout<<"Whole类的构造函数被调用"<<endl;
+	cout<<"Whole类的构造函数被调用"<<endl;
 }
 Whole::~Whole()
 {
