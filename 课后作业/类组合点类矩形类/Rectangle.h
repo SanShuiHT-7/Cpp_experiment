@@ -12,5 +12,4 @@ class Rectangle
 		Rectangle(Rectangle &rec);
 		float computeArea();
 };
-
 #endif 
