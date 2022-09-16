@@ -1,7 +1,4 @@
-#include <iostream>
-
 #include "Point.h" 
-using namespace std;
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 class Rectangle
@@ -12,7 +9,7 @@ class Rectangle
 	public:
 		Rectangle();
 		Rectangle(Point xp1,Point xp2);
-		Rectangle(const Rectangle &rec);
+		Rectangle(Rectangle &rec);
 		float computeArea();
 };
 

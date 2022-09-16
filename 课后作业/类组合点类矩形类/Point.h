@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 #ifndef POINT_H
 #define POINT_H
 class Point
@@ -9,9 +7,8 @@ class Point
 	public:
 		Point();
 		Point(int xx,int yy);
-		Point(const Point &p); 
+		Point(Point &p); 
 		float getX();
 		float getY(); 
 };
-
 #endif 

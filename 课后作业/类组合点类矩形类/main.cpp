@@ -1,11 +1,10 @@
 #include <iostream>
-#
 #include "Rectangle.h"
 using namespace std;
 int main() {
-	Point p1;
-	Point p2(10,20);
-	Rectangle r1(p1,p2);
+	Point p3;
+	Point p4(10,20);	
+	Rectangle r1(p3,p4);
 	cout<<"r1的面积为："<<r1.computeArea()<<endl;
 	cout<<"========================"<<endl;
 	Rectangle r2=r1;
