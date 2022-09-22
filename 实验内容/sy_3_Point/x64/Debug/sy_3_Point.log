@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Point.cpp
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy_3_Point\Point.cpp(12,6): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy_3_Point\Point.cpp(13,6): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  Rectangle.cpp
+  正在生成代码...
+  sy_3_Point.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy_3_类组合的应用与编程_Point.exe

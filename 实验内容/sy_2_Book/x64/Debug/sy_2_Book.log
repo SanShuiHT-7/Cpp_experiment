@@ -1,0 +1,6 @@
+﻿  Book.cpp
+  main.cpp
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy_2_Book\main.cpp(49,17): warning C4244: “参数”: 从“unsigned long”转换到“float”，可能丢失数据
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy_2_Book\main.cpp(25,8): warning C4101: “Bprice”: 未引用的局部变量
+  正在生成代码...
+  sy_2_Book.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy_2_类的进一步应用与编程_Book.exe
