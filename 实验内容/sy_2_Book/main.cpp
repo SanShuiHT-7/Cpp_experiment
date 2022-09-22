@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+
 #include "Book.h"
 using namespace std;
 //对象数组
@@ -24,6 +25,8 @@ int main() {
 	string Bname, Bisbn, Bpuvlisher, Bauthor;
 	float Bprice;
 	char flag = 'N';
+	int j;
+
 	while (true)
 	{
 		cout << "请输入图书名：";

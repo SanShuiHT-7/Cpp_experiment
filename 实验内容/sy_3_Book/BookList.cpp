@@ -24,16 +24,22 @@ void BookList::showBook_title()
 }
 void BookList::showAll()
 {
-	cout << "图书系统已有一下书籍：" << endl;
-	showBook_title();
 	int j;
 	j = bookNum;
+	if (j == 0)
+	{
+		cout << "本系统暂未存储图书" << endl;
+	}
+	else
+	{
+		cout << "共有 " << j << " 本图书存储系统中，" << "如下：" << endl;
+		showBook_title();
+	}
+	
 	for (bookNum = 0; bookNum < j; bookNum++)
 	{
 		showBook(bookNum);
 	}
-	cout << "系统中共有图书" << j << "本" << endl;
-	cout << endl;
 }
 int BookList::search(string Name)
 {

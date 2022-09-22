@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 using namespace std;
+#ifndef BOOK_H
+#define BOOK_H
 class Book {
 private:
 	string name;	 //Õº È√˚≥∆ 
@@ -22,4 +24,6 @@ public:
 	string get_author();
 	void setAuthor(const string newAuthor);
 };
+#endif // !BOOK_H
+
 
