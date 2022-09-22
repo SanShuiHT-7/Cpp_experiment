@@ -1,0 +1,3 @@
+﻿  BookList.cpp
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy_3_Book\BookList.cpp(48): warning C4715: “BookList::search”: 不是所有的控件路径都返回值
+  sy_3_Book.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy3_类组合的应用与编程_4_Book.exe

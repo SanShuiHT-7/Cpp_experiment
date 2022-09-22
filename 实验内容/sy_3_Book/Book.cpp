@@ -3,12 +3,12 @@ Book::Book()
 {
 
 }
-Book::Book(string B_name, float B_price, string B_isbn, string B_puvlisher, string B_author)
+Book::Book(string B_name, float B_price, string B_isbn, string B_publisher, string B_author)
 {
 	name = B_name;
 	price = B_price;
 	isbn = B_isbn;
-	puvlisher = B_puvlisher;
+	publisher = B_publisher;
 	author = B_author;
 }
 string Book::get_name() {
@@ -32,13 +32,13 @@ void Book::setIsbn(const string newIsbn)
 {
 	isbn = newIsbn;
 }
-string Book::get_puvlisher()
+string Book::get_publisher()
 {
-	return puvlisher;
+	return publisher;
 }
-void Book::setPuvlisher(const string newPuvlisher)
+void Book::setPublisher(const string newPublisher)
 {
-	puvlisher = newPuvlisher;
+	publisher = newPublisher;
 }
 string Book::get_author()
 {
