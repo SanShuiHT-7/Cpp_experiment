@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int i;
-    Student Stud[5] =
+    Student Stud[5] =   
     {
         Student("09170301","张三","男",90),
         Student("09170302","李四","男",91),
