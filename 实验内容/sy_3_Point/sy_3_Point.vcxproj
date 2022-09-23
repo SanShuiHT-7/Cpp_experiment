@@ -24,7 +24,7 @@
     <ProjectGuid>{4e4b8b68-d36e-49f1-b90b-d2d41f742d80}</ProjectGuid>
     <RootNamespace>sy3Point</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>sy3_类组合的应用与编程_2_Point</ProjectName>
+    <ProjectName>sy3_类组合的应用与编程_2_Rectangle</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

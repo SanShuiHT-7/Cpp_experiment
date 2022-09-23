@@ -7,7 +7,7 @@ int main()
 	cout << "修改前信息：" << endl;
 	tea1.display();
 	cout << endl;
-	tea1.changeDate(2000, 7, 17);
+	tea1.changeDate(2000, 2, 2);
 	cout << "修改后信息：" << endl;
 	tea1.display();
 	return 0;
