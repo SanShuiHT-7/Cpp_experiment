@@ -7,6 +7,8 @@
 using namespace std;
 void Show_Menu()
 {
+	cout << "\n===========================\n";
+	cout << "  <<欢迎使用图书管理系统>>  \n";
 	cout << "===========================\n";
 	cout << "[         主菜单          ]\n";
 	cout << "===========================\n";
@@ -43,7 +45,7 @@ void Show_LowMenu_update()
 	cout << "\n===========================\n";
 	cout << "[         二级菜单        ]\n";
 	cout << "===========================\n";
-	cout << "1.[修改书名] 2.[修改价格查询]  \n\n";
+	cout << "1.[修改书名] 2.[修改价格]  \n\n";
 	cout << "3.[修改ISBN] 4.[修改出版社]\n\n";
 	cout << "5.[修改作者] 6.[返回主菜单]\n";
 	cout << "===========================\n";
@@ -62,8 +64,9 @@ int main()
 	int k;
 	while (1)
 	{
-		cout << "\n  <<欢迎使用图书管理系统>>  \n";
+
 		//利用switch语句实现图书管理系统菜单
+
 		LOOP:Show_Menu();
 		cin >> k;
 		switch (k)
@@ -71,17 +74,20 @@ int main()
 		case 1:
 			{
 			cout << "功能：1.【图书录入】" << endl;
+			system("cls");
 			cin >> b1;//插入流重载
 			cout << "是否录入该图书（Y/N）:";
 			cin >> flag_insert;
 			if (((flag_insert == 'Y') || (flag_insert == 'y')))
 			{
 				list.insert(b1);
+				system("cls");
 				cout << "已经录入该书本" << endl;
 				break;
 			}
 			else
 			{
+				system("cls");
 				cout << "未录入" << endl;
 				break;
 			}
@@ -89,6 +95,7 @@ int main()
 		case 2:
 			{
 			cout << "功能：2.【打印图书】" << endl;
+			system("cls");
 			list.showAll();
 			break;
 		}
@@ -111,12 +118,14 @@ int main()
 					int x1 = list.search_name(book_name);
 					if (x1 >= 0)
 					{
+						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
 						list.showBook(x1);
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -130,12 +139,16 @@ int main()
 					int x1 = list.search_price(book_price);
 					if (x1 >= 0)
 					{
+
+						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
 						list.showBook(x1);
 					}
 					else
 					{
+
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -149,12 +162,16 @@ int main()
 					int x1 = list.search_isbn(book_isbn);
 					if (x1 >= 0)
 					{
+
+						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
 						list.showBook(x1);
 					}
 					else
 					{
+
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -168,12 +185,16 @@ int main()
 					int x1 = list.search_publisher(book_publisher);
 					if (x1 >= 0)
 					{
+
+						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
 						list.showBook(x1);
 					}
 					else
 					{
+
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -187,12 +208,16 @@ int main()
 					int x1 = list.search_author(book_author);
 					if (x1 >= 0)
 					{
+
+						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
 						list.showBook(x1);
 					}
 					else
 					{
+						
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -204,13 +229,16 @@ int main()
 					cout << "请输入需要查找的图书序号：";
 					int i1;
 					cin >> i1;
+					system("cls");
 					cout << "查询到以下图书：" << endl;
 					list.showBook(i1 - 1);
 					break;
 				}
 				case 7:
 				{
+					system("cls");
 					goto LOOP;
+
 				}
 				int n = getchar();
 				}
@@ -233,31 +261,36 @@ int main()
 					cout << "功能：1.[书名删除]" << endl;
 					cout << "请输入需要删除的书名：";
 					cin >> book_name;
-					int x2 = list.search_name(book_name);
-					if (x2 >= 0)
+					int x4 = list.search_name(book_name);
+					if (x4 >= 0)
 					{
-						list.deleted(x2);
+						list.deleted(x4);
+						system("cls");
 						cout << "图书已删除" << endl;
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书" << endl;
 					}
 					break;
 				}
 				case 2:
 				{
+					system("cls");
 					cout << "功能：2.[ISBN删除]" << endl;
 					cout << "请输入需要删除的ISBN：";
 					cin >> book_isbn;
-					int x2 = list.search_isbn(book_isbn);
-					if (x2 >= 0)
+					int x1 = list.search_isbn(book_isbn);
+					if (x1 >= 0)
 					{
-						list.deleted(x2);
+						list.deleted(x1);
+						system("cls");
 						cout << "图书已删除" << endl;
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书" << endl;
 					}
 					break;
@@ -267,14 +300,16 @@ int main()
 					system("cls");
 					cout << "功能：3.[序号删除]" << endl;
 					cout << "请输入需要删除的图书序号：";
-					int i2;
-					cin >> i2;
-					list.deleted(i2 - 1);
+					int j;
+					cin >> j;
+					list.deleted(j - 1);
+					system("cls");
 					cout << "该图书已删除";
 					break;
 				}
 				case 4:
 				{
+					system("cls");
 					goto LOOP;
 				}
 				int n = getchar();
@@ -305,11 +340,14 @@ int main()
 						cin >> new_bookname;
 						b.setName(new_bookname);
 						list.update(x3, b);
+						system("cls");
 						cout << "已修改，信息如下：" << endl;
+						list.showBook_title();
 						list.showBook(x3);
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -327,11 +365,14 @@ int main()
 						cin >> new_bookprice;
 						b.setPrice(new_bookprice);
 						list.update(x3, b);
+						system("cls");
 						cout << "已修改，信息如下：" << endl;
+						list.showBook_title();
 						list.showBook(x3);
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -349,11 +390,14 @@ int main()
 						cin >> new_bookisbn;
 						b.setIsbn(new_bookisbn);
 						list.update(x3, b);
+						system("cls");
 						cout << "已修改，信息如下：" << endl;
+						list.showBook_title();
 						list.showBook(x3);
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -371,11 +415,14 @@ int main()
 						cin >> new_bookpublisher;
 						b.setPublisher(new_bookpublisher);
 						list.update(x3, b);
+						system("cls");
 						cout << "已修改，信息如下：" << endl;
+						list.showBook_title();
 						list.showBook(x3);
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
@@ -393,17 +440,21 @@ int main()
 						cin >> new_bookauthor;
 						b.setAuthor(new_bookauthor);
 						list.update(x3, b);
+						system("cls");
 						cout << "已修改，信息如下：" << endl;
+						list.showBook_title();
 						list.showBook(x3);
 					}
 					else
 					{
+						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}
 					break;
 				}
 				case 6:
 				{
+					system("cls");
 					goto LOOP;
 				}
 				int n = getchar();
@@ -413,6 +464,7 @@ int main()
 		}
 		case 6:
 		{
+			system("cls");
 			cout << "已退出系统" << endl;
 			exit(0);
 		}
