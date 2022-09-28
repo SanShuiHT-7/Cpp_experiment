@@ -24,7 +24,7 @@
     <ProjectGuid>{17ebe297-a71b-4b02-8eaa-59dc044f022f}</ProjectGuid>
     <RootNamespace>sy4多态的应用2Complex</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>sy4_多态的应用_2.1_运算符重载_成员函数_Complex</ProjectName>
+    <ProjectName>sy4_多态的应用_2.1_算数运算符重载_成员函数_Complex</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

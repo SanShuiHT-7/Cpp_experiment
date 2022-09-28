@@ -39,15 +39,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_多态的应用_3_函数�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_1.3_函数重载_类模板_Min", "..\sy4_多态的应用_1.3_类模板\sy4_多态的应用_1.3_类模板.vcxproj", "{9CBE1E94-9A93-4C01-AE2A-44710F508A58}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_2.1_运算符重载_成员函数_Complex", "..\sy4_多态的应用_2_Complex\sy4_多态的应用_2_Complex.vcxproj", "{17EBE297-A71B-4B02-8EAA-59DC044F022F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_2.1_算数运算符重载_成员函数_Complex", "..\sy4_多态的应用_2_Complex\sy4_多态的应用_2_Complex.vcxproj", "{17EBE297-A71B-4B02-8EAA-59DC044F022F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_2.2_运算符重载_友元函数_Complex", "..\sy4_多态的应用_2.2_运算符重载为友元函数_Complex\sy4_多态的应用_2.2_运算符重载为友元函数_Complex.vcxproj", "{1E996AF2-B178-4024-96BF-CB634FDF58F3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_2.2_算数运算符重载_友元函数_Complex", "..\sy4_多态的应用_2.2_运算符重载为友元函数_Complex\sy4_多态的应用_2.2_运算符重载为友元函数_Complex.vcxproj", "{1E996AF2-B178-4024-96BF-CB634FDF58F3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_多态的应用_4_运算符重载_成员函数", "..\4_多态的应用_4_运算符重载为成员函数\4_多态的应用_4_运算符重载为成员函数.vcxproj", "{F1EDA2EC-1658-4594-9F50-3493B88F7AA0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_多态的应用_5_运算符重载_友元函数", "..\4_多态的应用_5_运算符重载为友元函数\4_多态的应用_5_运算符重载为友元函数.vcxproj", "{0B5BD8EC-2688-4124-89A3-A41835E71FE0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_多态的应用_6_运算符重载_重载插入-提取运算符", "..\4_多态的应用_5_运算符重载_重载插入-提取运算符\4_多态的应用_5_运算符重载_重载插入-提取运算符.vcxproj", "{676E0CB7-20EB-4F8D-BDE0-EF73499FE260}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_3_输入输出运算符重载_Student", "..\sy4_多态的应用_3_输入输出运算符重载_Student\sy4_多态的应用_3_输入输出运算符重载_Student.vcxproj", "{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_4_Student", "..\sy4_多态的应用_4_Student\sy4_多态的应用_4_Student.vcxproj", "{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -241,6 +245,22 @@ Global
 		{676E0CB7-20EB-4F8D-BDE0-EF73499FE260}.Release|x64.Build.0 = Release|x64
 		{676E0CB7-20EB-4F8D-BDE0-EF73499FE260}.Release|x86.ActiveCfg = Release|Win32
 		{676E0CB7-20EB-4F8D-BDE0-EF73499FE260}.Release|x86.Build.0 = Release|Win32
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Debug|x64.ActiveCfg = Debug|x64
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Debug|x64.Build.0 = Debug|x64
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Debug|x86.Build.0 = Debug|Win32
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Release|x64.ActiveCfg = Release|x64
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Release|x64.Build.0 = Release|x64
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Release|x86.ActiveCfg = Release|Win32
+		{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}.Release|x86.Build.0 = Release|Win32
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Debug|x64.ActiveCfg = Debug|x64
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Debug|x64.Build.0 = Debug|x64
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Debug|x86.Build.0 = Debug|Win32
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x64.ActiveCfg = Release|x64
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x64.Build.0 = Release|x64
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x86.ActiveCfg = Release|Win32
+		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
