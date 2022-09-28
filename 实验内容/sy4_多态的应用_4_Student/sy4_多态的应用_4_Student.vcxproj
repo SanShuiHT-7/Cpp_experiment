@@ -24,6 +24,7 @@
     <ProjectGuid>{ffbdc1d4-5b8d-49b0-b4e2-8a19b65ef0ff}</ProjectGuid>
     <RootNamespace>sy4多态的应用4Student</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>sy4_多态的应用_4_Book</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

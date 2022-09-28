@@ -1,6 +1,3 @@
-﻿  Book.cpp
-  BookList.cpp
+﻿D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(sy4_多态的应用_4_Student.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   main.cpp
-  正在生成代码...
-E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy4_多态的应用_4_Student\BookList.cpp(54): warning C4715: “BookList::search”: 不是所有的控件路径都返回值
-  sy4_多态的应用_4_Student.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy4_多态的应用_4_Student.exe
+  sy4_多态的应用_4_Student.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy4_多态的应用_4_Book.exe
