@@ -27,10 +27,10 @@ int main()
 	Min<int> a1;
 	cout << "int型数组最小值：" << a1.min(a,7) << endl;
 	Min<double> b1;
-	cout << "int型数组最小值：" << b1.min(b, 7) << endl;
+	cout << "double型数组最小值：" << b1.min(b, 7) << endl;
 	Min<float> c1;
-	cout << "int型数组最小值：" << c1.min(c, 7) << endl;
+	cout << "float型数组最小值：" << c1.min(c, 7) << endl;
 	Min<long> d1;
-	cout << "int型数组最小值：" << d1.min(d, 7) << endl;
+	cout << "long型数组最小值：" << d1.min(d, 7) << endl;
 	return 0;
 }
