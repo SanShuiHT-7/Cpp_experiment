@@ -72,7 +72,7 @@ int main()
 		switch (k)
 		{
 		case 1:
-			{
+		{
 			cout << "功能：1.【图书录入】" << endl;
 			system("cls");
 			cin >> b1;//插入流重载
@@ -93,14 +93,14 @@ int main()
 			}
 		}
 		case 2:
-			{
-			cout << "功能：2.【打印图书】" << endl;
+		{
+			cout << "功能：2.【打印书库】" << endl;
 			system("cls");
 			list.showAll();
 			break;
 		}
 		case 3:
-			{
+		{
 			cout << "功能：3.【查找图书】" << endl;
 			system("cls");
 			while (1)
@@ -115,13 +115,13 @@ int main()
 					cout << "功能：1.[书名查找]" << endl;
 					cout << "请输入需要查找的图书名：";
 					cin >> book_name;
-					int x1 = list.search_name(book_name);
-					if (x1 >= 0)
+					int sel_1 = list.search_name(book_name);
+					if (sel_1 >= 0)
 					{
 						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
-						list.showBook(x1);
+						list.showBook(sel_1);
 					}
 					else
 					{
@@ -136,14 +136,14 @@ int main()
 					cout << "功能：2.[价格查找]" << endl;
 					cout << "请输入需要查找的图书价格：";
 					cin >> book_price;
-					int x1 = list.search_price(book_price);
-					if (x1 >= 0)
+					int sel_2 = list.search_price(book_price);
+					if (sel_2 >= 0)
 					{
 
 						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
-						list.showBook(x1);
+						list.showBook(sel_2);
 					}
 					else
 					{
@@ -159,14 +159,14 @@ int main()
 					cout << "功能：3.[ISBN查找]" << endl;
 					cout << "请输入需要查找的ISBN：";
 					cin >> book_isbn;
-					int x1 = list.search_isbn(book_isbn);
-					if (x1 >= 0)
+					int sel_3 = list.search_isbn(book_isbn);
+					if (sel_3 >= 0)
 					{
 
 						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
-						list.showBook(x1);
+						list.showBook(sel_3);
 					}
 					else
 					{
@@ -182,14 +182,14 @@ int main()
 					cout << "功能：4.[出版社查找]" << endl;
 					cout << "请输入需要查找的出版社名：";
 					cin >> book_publisher;
-					int x1 = list.search_publisher(book_publisher);
-					if (x1 >= 0)
+					int sel_4 = list.search_publisher(book_publisher);
+					if (sel_4 >= 0)
 					{
 
 						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
-						list.showBook(x1);
+						list.showBook(sel_4);
 					}
 					else
 					{
@@ -205,14 +205,14 @@ int main()
 					cout << "功能：5.[作者查找]" << endl;
 					cout << "请输入需要查找的作者名：";
 					cin >> book_author;
-					int x1 = list.search_author(book_author);
-					if (x1 >= 0)
+					int sel_5 = list.search_author(book_author);
+					if (sel_5 >= 0)
 					{
 
 						system("cls");
 						cout << "查询到以下图书：" << endl;
 						list.showBook_title();
-						list.showBook(x1);
+						list.showBook(sel_5);
 					}
 					else
 					{
@@ -227,11 +227,11 @@ int main()
 					system("cls");
 					cout << "功能：6.[序号查询]" << endl;
 					cout << "请输入需要查找的图书序号：";
-					int i1;
-					cin >> i1;
+					int sel_6;
+					cin >> sel_6;
 					system("cls");
 					cout << "查询到以下图书：" << endl;
-					list.showBook(i1 - 1);
+					list.showBook(sel_6 - 1);
 					break;
 				}
 				case 7:
@@ -246,7 +246,7 @@ int main()
 
 		}
 		case 4:
-			{
+		{
 			cout << "功能：4.【删除图书】" << endl;
 			system("cls");
 			while (1)
@@ -261,10 +261,10 @@ int main()
 					cout << "功能：1.[书名删除]" << endl;
 					cout << "请输入需要删除的书名：";
 					cin >> book_name;
-					int x4 = list.search_name(book_name);
-					if (x4 >= 0)
+					int del_1 = list.search_name(book_name);
+					if (del_1 >= 0)
 					{
-						list.deleted(x4);
+						list.deleted(del_1);
 						system("cls");
 						cout << "图书已删除" << endl;
 					}
@@ -281,10 +281,10 @@ int main()
 					cout << "功能：2.[ISBN删除]" << endl;
 					cout << "请输入需要删除的ISBN：";
 					cin >> book_isbn;
-					int x1 = list.search_isbn(book_isbn);
-					if (x1 >= 0)
+					int del_2 = list.search_isbn(book_isbn);
+					if (del_2 >= 0)
 					{
-						list.deleted(x1);
+						list.deleted(del_2);
 						system("cls");
 						cout << "图书已删除" << endl;
 					}
@@ -300,9 +300,9 @@ int main()
 					system("cls");
 					cout << "功能：3.[序号删除]" << endl;
 					cout << "请输入需要删除的图书序号：";
-					int j;
-					cin >> j;
-					list.deleted(j - 1);
+					int del_3;
+					cin >> del_3;
+					list.deleted(del_3 - 1);
 					system("cls");
 					cout << "该图书已删除";
 					break;
@@ -332,18 +332,18 @@ int main()
 					cout << "功能：1.[修改书名]" << endl;
 					cout << "请输入需要修改的图书名：";
 					cin >> book_name;
-					int x3 = list.search_name(book_name);//查找要修改的相应图书信息
-					Book b = list.bookInfor(x3);//返回该本图书的信息
-					if (x3 >= 0)
+					int upd_1 = list.search_name(book_name);//查找要修改的相应图书信息
+					Book b = list.bookInfor(upd_1);//返回该本图书的信息
+					if (upd_1 >= 0)
 					{
 						cout << "请输入该图书新的图书名：";
 						cin >> new_bookname;
 						b.setName(new_bookname);
-						list.update(x3, b);
+						list.update(upd_1, b);
 						system("cls");
 						cout << "已修改，信息如下：" << endl;
 						list.showBook_title();
-						list.showBook(x3);
+						list.showBook(upd_1);
 					}
 					else
 					{
@@ -354,21 +354,22 @@ int main()
 				}
 				case 2:
 				{
+					system("cls");
 					cout << "功能：2.[修改价格]" << endl;
 					cout << "请输入需要修改价格的图书ISBN：";//因为isbn能够确定是哪本书
 					cin >> book_isbn;
-					int x3 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
-					Book b = list.bookInfor(x3);//返回该本图书的信息
-					if (x3 >= 0)
+					int upd_2 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
+					Book b = list.bookInfor(upd_2);//返回该本图书的信息
+					if (upd_2 >= 0)
 					{
 						cout << "请输入该图书新的价格：";
 						cin >> new_bookprice;
 						b.setPrice(new_bookprice);
-						list.update(x3, b);
+						list.update(upd_2, b);
 						system("cls");
 						cout << "已修改，信息如下：" << endl;
 						list.showBook_title();
-						list.showBook(x3);
+						list.showBook(upd_2);
 					}
 					else
 					{
@@ -379,21 +380,22 @@ int main()
 				}
 				case 3:
 				{
+					system("cls");
 					cout << "功能：3.[修改isbn]" << endl;
 					cout << "请输入需要修改的ISBN：";//因为isbn能够确定是哪本书
 					cin >> book_isbn;
-					int x3 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
-					Book b = list.bookInfor(x3);//返回该本图书的信息
-					if (x3 >= 0)
+					int upd_3 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
+					Book b = list.bookInfor(upd_3);//返回该本图书的信息
+					if (upd_3 >= 0)
 					{
 						cout << "请输入该图书新的ISBN：";
 						cin >> new_bookisbn;
 						b.setIsbn(new_bookisbn);
-						list.update(x3, b);
+						list.update(upd_3, b);
 						system("cls");
 						cout << "已修改，信息如下：" << endl;
 						list.showBook_title();
-						list.showBook(x3);
+						list.showBook(upd_3);
 					}
 					else
 					{
@@ -404,21 +406,22 @@ int main()
 				}
 				case 4:
 				{
+					system("cls");
 					cout << "功能：4.[修改出版社]" << endl;
 					cout << "请输入需要修改出版社的图书ISBN：";//因为isbn能够确定是哪本书
 					cin >> book_isbn;
-					int x3 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
-					Book b = list.bookInfor(x3);//返回该本图书的信息
-					if (x3 >= 0)
+					int upd_4 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
+					Book b = list.bookInfor(upd_4);//返回该本图书的信息
+					if (upd_4 >= 0)
 					{
 						cout << "请输入该图书新的出版社名：";
 						cin >> new_bookpublisher;
 						b.setPublisher(new_bookpublisher);
-						list.update(x3, b);
+						list.update(upd_4, b);
 						system("cls");
 						cout << "已修改，信息如下：" << endl;
 						list.showBook_title();
-						list.showBook(x3);
+						list.showBook(upd_4);
 					}
 					else
 					{
@@ -429,21 +432,22 @@ int main()
 				}
 				case 5:
 				{
+					system("cls");
 					cout << "功能：5.[修改作者]" << endl;
 					cout << "请输入需要修改作者的图书ISBN：";//因为isbn能够确定是哪本书
 					cin >> book_isbn;
-					int x3 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
-					Book b = list.bookInfor(x3);//返回该本图书的信息
-					if (x3 >= 0)
+					int upd_5 = list.search_isbn(book_isbn);//查找要修改的相应图书信息
+					Book b = list.bookInfor(upd_5);//返回该本图书的信息
+					if (upd_5 >= 0)
 					{
 						cout << "请输入该图书新的作者名：";
 						cin >> new_bookauthor;
 						b.setAuthor(new_bookauthor);
-						list.update(x3, b);
+						list.update(upd_5, b);
 						system("cls");
 						cout << "已修改，信息如下：" << endl;
 						list.showBook_title();
-						list.showBook(x3);
+						list.showBook(upd_5);
 					}
 					else
 					{

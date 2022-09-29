@@ -103,18 +103,18 @@ Book BookList::bookInfor(int i)//获取书本信息
 }
 void BookList::update(int i, Book b)//修改图书信息，指定下标
 {
-	bookList[i].setName(b.get_name());
+	bookList[i].setName(b.get_name());//需要修改书的书名来自对象b输入的书名
 	bookList[i].setPrice(b.get_price());
-	bookList[bookNum].setIsbn(b.get_isbn());
-	bookList[bookNum].setPublisher(b.get_publisher());
-	bookList[bookNum].setAuthor(b.get_author());
+	bookList[i].setIsbn(b.get_isbn());
+	bookList[i].setPublisher(b.get_publisher());
+	bookList[i].setAuthor(b.get_author());
 }
-void BookList::deleted(int i)//删除某本信息
+void BookList::deleted(int i)
 {
 	int j;
-	for (j = i; j < (bookNum - 1); j++);//后面的图书逐一覆盖
+	for (j = i; j < (bookNum - 1); j++)
 	{
-		bookList[j].setName(bookList[j + 1].get_name());
+		bookList[j].setName(bookList[j + 1].get_name());//删除后第j本书的新书名来自j+1本的书名，其他同理
 		bookList[j].setPrice(bookList[j + 1].get_price());
 		bookList[j].setIsbn(bookList[j + 1].get_isbn());
 		bookList[j].setPublisher(bookList[j + 1].get_publisher());

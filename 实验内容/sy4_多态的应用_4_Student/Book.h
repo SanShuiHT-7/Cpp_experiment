@@ -13,7 +13,7 @@ private:
 	string author;	 //作者 
 public:
 	Book();//默认构造函数
-	Book(string name, float price, string isbn, string puvlisher, string author);//重载构造函数
+	Book(string Bname, float Bprice, string Bisbn, string Bpuvlisher, string Bauthor);//重载构造函数
 	string get_name();//获取书名
 	void setName(const string newName);//设置书名
 	float get_price();//获取价格
