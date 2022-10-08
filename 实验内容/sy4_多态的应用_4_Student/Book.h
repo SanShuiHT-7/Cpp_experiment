@@ -28,5 +28,3 @@ public:
 	friend ostream& operator<<(ostream& output, Book& book);//运算符重载方法，输出图书信息
 };
 #endif // !BOOK_H
-
-

@@ -51,7 +51,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_多态的应用_6_运算�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_3_输入输出运算符重载_Student", "..\sy4_多态的应用_3_输入输出运算符重载_Student\sy4_多态的应用_3_输入输出运算符重载_Student.vcxproj", "{941DCAA4-B19B-4DD2-BF4E-862608F8DFA0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_4_Student", "..\sy4_多态的应用_4_Student\sy4_多态的应用_4_Student.vcxproj", "{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy4_多态的应用_4_Book", "..\sy4_多态的应用_4_Student\sy4_多态的应用_4_Student.vcxproj", "{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy5_继承的应用_2_虚函数_Shape", "..\sy5_继承的应用_2_虚函数_Shape\sy5_继承的应用_2_虚函数_Shape.vcxproj", "{6160815A-2E2F-4322-9671-63D08B1C8AD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sy5_继承的应用_1_单继承_Cylinder", "..\sy5_继承的应用_1_单继承_Cylinder\sy5_继承的应用_1_单继承_Cylinder.vcxproj", "{C171A910-80DC-4257-B1D2-C431145FE292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,22 @@ Global
 		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x64.Build.0 = Release|x64
 		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x86.ActiveCfg = Release|Win32
 		{FFBDC1D4-5B8D-49B0-B4E2-8A19B65EF0FF}.Release|x86.Build.0 = Release|Win32
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Debug|x64.ActiveCfg = Debug|x64
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Debug|x64.Build.0 = Debug|x64
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Debug|x86.Build.0 = Debug|Win32
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Release|x64.ActiveCfg = Release|x64
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Release|x64.Build.0 = Release|x64
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Release|x86.ActiveCfg = Release|Win32
+		{6160815A-2E2F-4322-9671-63D08B1C8AD4}.Release|x86.Build.0 = Release|Win32
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Debug|x64.ActiveCfg = Debug|x64
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Debug|x64.Build.0 = Debug|x64
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Debug|x86.ActiveCfg = Debug|Win32
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Debug|x86.Build.0 = Debug|Win32
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Release|x64.ActiveCfg = Release|x64
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Release|x64.Build.0 = Release|x64
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Release|x86.ActiveCfg = Release|Win32
+		{C171A910-80DC-4257-B1D2-C431145FE292}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
