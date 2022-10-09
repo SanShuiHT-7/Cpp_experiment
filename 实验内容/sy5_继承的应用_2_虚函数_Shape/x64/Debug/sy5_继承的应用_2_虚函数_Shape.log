@@ -1,0 +1,8 @@
+﻿  Circle.cpp
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_2_虚函数_Shape\Circle.cpp(13,23): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_2_虚函数_Shape\Circle.cpp(17,18): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  main.cpp
+  Square.cpp
+  Triangle.cpp
+  正在生成代码...
+  sy5_继承的应用_2_虚函数_Shape.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy5_继承的应用_2_虚函数_Shape.exe

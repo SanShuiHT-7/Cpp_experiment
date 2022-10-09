@@ -10,6 +10,7 @@ protected:
 	float r;
 public:
 	Circle();
+	void shapeName();
 	Circle(float x, float y,float r);
 	float area()const;
 	friend istream& operator>>(istream& input,  Circle& C);

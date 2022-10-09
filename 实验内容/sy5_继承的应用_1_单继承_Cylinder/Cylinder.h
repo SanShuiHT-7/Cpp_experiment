@@ -1,9 +1,9 @@
 #pragma once
+#ifndef CYLINDER_H
+#define CYLINDER_H
 #include<iostream>
 #include "Circle.h"
 using namespace std;
-#ifndef CYLINDER_H
-#define CYLINDER_H
 class Cylinder:public Circle
 {
 protected:

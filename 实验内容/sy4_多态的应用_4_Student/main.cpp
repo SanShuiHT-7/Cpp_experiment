@@ -67,7 +67,7 @@ int main()
 
 		//利用switch语句实现图书管理系统菜单
 
-		LOOP:Show_Menu();
+	LOOP:Show_Menu();
 		cin >> k;
 		switch (k)
 		{
@@ -216,7 +216,7 @@ int main()
 					}
 					else
 					{
-						
+
 						system("cls");
 						cout << "没有找到该图书信息" << endl;
 					}

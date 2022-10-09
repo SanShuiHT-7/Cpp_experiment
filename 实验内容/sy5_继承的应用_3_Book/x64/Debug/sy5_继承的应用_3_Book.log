@@ -1,0 +1,11 @@
+﻿  Book.cpp
+  BookE.cpp
+  BookEList.cpp
+  main.cpp
+  正在生成代码...
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_3_Book\BookEList.cpp(69): warning C4715: “BookEList::search_price”: 不是所有的控件路径都返回值
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_3_Book\BookEList.cpp(56): warning C4715: “BookEList::search_name”: 不是所有的控件路径都返回值
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_3_Book\BookEList.cpp(82): warning C4715: “BookEList::search_isbn”: 不是所有的控件路径都返回值
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_3_Book\BookEList.cpp(95): warning C4715: “BookEList::search_publisher”: 不是所有的控件路径都返回值
+E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\sy5_继承的应用_3_Book\BookEList.cpp(108): warning C4715: “BookEList::search_author”: 不是所有的控件路径都返回值
+  sy5_继承的应用_3_Book.vcxproj -> E:\课程\C++\下学期\C++\Cpp_experiment\实验内容\Cpp_experiment\x64\Debug\sy5_继承的应用_3_Book.exe
